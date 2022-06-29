@@ -1,0 +1,117 @@
+q.How can you define cloud computing?
+a.AWS defines cloud computing as the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. It allows customers to provision resources like computing, storage and networking at a moment’s notice. Another feature of cloud computing is the ability to scale up and down.
+
+q.what is the benefit of Elasticity?
+a.The concept of Elasticity is the means of an application having the ability to scale up and scale down based on demand. An example of such a service is the Autoscaling service
+
+q.What is the AWS feature that enables fast, easy and secure transfers of files over long distances between your client and your Amazon S3 bucket?
+a.Amazon S3 Transfer Acceleration enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+
+
+q.What best describes the “Principle of Least Privilege
+a.The principle means giving a user account only those privileges which are essential to perform its intended function. For example, a user account for the sole purpose of creating backups does not need to install the software. Hence, it has rights only to run backup and backup-related applications. 
+
+q.Which ongoing aspect of operations will be reduced if Sun Solar moves its servers to the AWS cloud?
+a.Idle capacity is most likely to be reduced by moving services to the AWS cloud. In traditional data centres, resources are provisioned based on assumed demand. If there is a requirement for more resources, they can be purchased. However, it is doubtful that these resources will be used at total capacity. Using AWS services like Auto Scaling and help reduce the idle capacity of resources.
+
+
+q.Cosmo Property is looking to stop patching and managing backups of its Microsoft SQL Server Database. Which AWS service should they use to achieve this?
+a.Migrating Microsoft SQL Server databases to Amazon Relational Database Service (RDS) will allow any organisation to stop taking backups and patching its SQL Server. This will enable organisations to maintain backups of critical data reliably and cost-effectively while also reducing operational overhead. This is part of the Operational Excellence pillar in AWS.
+
+q.Sun Solar wants to use an AWS feature that will help them reduce their expenses by spinning up EC2 instances based on demand. Which feature is that?
+a.Auto Scaling reduces expenses by provisioning and decommissioning EC2 instances based on workload. Auto Scaling Groups can be defined to optimise the number of running EC2 instances.
+
+q.Which type of Cloud Model is AWS GovCloud?
+a.GovCloud comes under the category of a community cloud. Dedicated cloud providers provide community clouds. In GovCloud, all resources are hosted by the cloud provider, and access to any of these resources is restricted to the government entities, contractors, and partners.
+
+q. How can EC2 instances access internet resources using a shared address?
+a. By deploying a Network Address Translation (NAT) gateway, EC2 instances can access internet resources using a shared address. It is a crucial cloud design component that sits between public and private networks. Without a NAT gateway, EC2 instances with a private IP address cannot access the internet.
+
+
+The AWS Cloud Services
+
+Currently, AWS offers more than 160+ services and products to their customers. And every year, the list grows longer. You don’t have to memorize every single service and function to pass the exam (although that would be amazing if you did!). What’s important is that you familiarize yourself on the more commonly used services such as those under compute, storage, databases, security, networking, and content delivery, management and governance, and a few others.
+
+
+Security in the Cloud
+
+Security in the AWS Cloud is another major part of your CCP Exam. AWS has defined the security controls that they manage and the security controls that you manage through the Shared Responsibility Model below.
+
+
+ 1) Data encryption at rest and in transit (EBS, S3, EC2, RDS, etc)
+ 2) Identity and Access Management (IAM)
+ 3) VPC and Application Network Security (security groups, ACLs, etc)
+ 4) Monitoring and Logging of your Infrastructure (Cloudwatch, cloudtrail, etc)
+ 5) AWS Compliance Programs
+
+
+AWS Pricing Model
+
+One of the advantages of using Cloud is having on-demand capacity provisioning. Therefore, it is also crucial for you to understand the provider’s pricing model.
+
+
+AWS has three fundamental drivers of cost that usually apply to any kind of service. They are:
+
+Compute cost
+Storage cost
+Outbound data transfer cost
+
+Cloud Concepts
+
+Scenario
+
+cloud architectures design principle in AWS
+
+A cloud architecture for mission-critical workloads in AWS which must be highly-available.
+
+A change or a failure in one component should not cascade to other components.
+
+You need to enable your Amazon EC2 instances in the public subnet to connect to the public Internet.
+
+Solution
+
+Design for failure.
+
+Decouple your components
+
+Implement elasticity
+
+Think parallel
+
+Use multiple Availability Zones
+
+Security and Compliance
+
+A security management tool to configure your AWS WAF rules across your accounts.
+
+A company needs to download the compliance-related documents in AWS such as Service Organization Controls (SOC) reports
+
+Improve the security of IAM users.
+
+An IAM identity that uses access keys to manage cloud resources via AWS CLI.
+
+Grant temporary access to your AWS resources.
+
+Apply and easily manage the common access permissions to a large number of IAM users in A
+
+Grant the required permissions to access your Amazon S3 resources.WS.
+
+A service that discovers, classifies, and protects sensitive data such as personally identifiable information (PII) or intellectual property.
+
+ Technology
+
+
+A company needs to use the AWS global network to improve availability of deployed applications on AWS using an anycast static IP address.
+
+You need to securely transfer hundreds of petabytes of data into and out of the AWS Cloud.
+
+A highly available and scalable cloud DNS web service in AWS.
+
+
+Automatically scale the capacity of an AWS cloud resource based on the incoming traffic to improve availability and reduce failures
+
+Which among the options below can you use to launch a new Amazon RDS database cluster to your VPC
+
+AWS Management Console
+
+AWS CloudFormation
