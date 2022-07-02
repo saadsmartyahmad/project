@@ -1,0 +1,65 @@
+q What is a characteristic of Amazon S3 cross-region replication?
+a S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts
+
+q What is a user responsible for when running an application in the AWS Cloud?
+a Managing application software updates
+
+q Amazon Route 53 enables users to:
+a register DNS domain names
+
+q Which AWS service is a managed NoSQL database?
+a Amazon DynamoDB
+
+q A company is hosting a web application in a Docker container on Amazon EC2.
+a
+
+q AWS is responsible for which of the following tasks?
+a Performing hardware maintenance in the AWS facilities that run the AWS Cloud
+
+
+q Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?
+
+a VPC Flow Logs
+
+q A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability.
+
+a  AWS Global Accelerator
+
+a AWS Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%. AWS Global Accelerator continually monitors the health of your application endpoints and redirects traffic to 
+
+q What is the term used to describe giving an AWS user only access to the exact services he/she needsto do the required job and nothing morehealthy endpoints in less than 30 seconds.
+
+a The Principal of Least Privilege
+
+q What you create and S3 bucket, what rules must be followed regarding the bucket name? (Select allthat apply)
+
+a Although certain regions do allow for uppercase lesers in the bucket name, uppercase leers areNOT required. Also, a bucket name cannot be formaed as an IP address
+
+a On-demand EC2 instances are widely used due to their exibility. You can create, start, stop, andterminate at any me (with no startup or terminaon fees). Although due to this exibility, they arethe most expensive buying opon
+
+q What AWS service must you use if you want to congure an AWS billing alarm
+
+a CloudWatch is the AWS service that allows you to collect metrics, and create alarms based on thosemetrics. Billing metrics can be tracked in CloudWatch, therefore billing alarms can be created.
+
+q What are some common uses of AWS?
+a All of the answers are common uses of AWS. AWS has thousands of dierent uses. In this course wediscussed some of the major categories, including: Storage Compute Power Databases NetworkingAnalycs Developer Tools Virtualizaon Securit
+
+
+
+q You have just set up a brand new AWS account. You want to keep monthly billing under $100, but youare worried about going over that limit. What can you set up in order to be noed when themonthly bill approaches $100?
+a In CloudWatch, you can set up a billing alarm that will trigger when your monthly bill hit the setthreshold. That alarm can then be set up to trigger an SNS topic that will send you a nocaon thatthe alarm threshold as been met
+
+
+q What best describes the purpose of having many Availability Zones in each AWS region?
+
+a Availability Zones work together within a region to provide users with the ability to easily setup andcongure redundant architecture and backup soluons
+
+q What TWO services/features are required to have highly available and fault tolerant architecture inAWS?
+
+a Elasc Load Balancer
+a Auto Scaling
+
+
+q What best describes the purpose of having many Availability Zones in each AWS region?
+ 
+a Availability Zones work together within a region to provide users with the ability to easily setup andcongure redundant architecture and backup soluons
